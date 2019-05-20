@@ -1,8 +1,9 @@
 {
-  "name": "voice-writer",
+  "name": "verbatim",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "annyang": "^2.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

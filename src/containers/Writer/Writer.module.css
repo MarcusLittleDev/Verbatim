@@ -1,0 +1,89 @@
+.Writer {
+  height: 85%;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.StartButton {
+  background-color: #5cb85c;
+}
+
+.StartButton:hover {
+  background: lightgreen;
+  cursor: pointer;
+}
+
+.StopButton {
+  background-color: #d9534f;
+}
+
+.StopButton:hover {
+  background-color: salmon;
+  cursor: pointer;
+}
+
+.InstructionButtonDiv {
+  margin-top: 1em;
+}
+.InstructionButtonDiv button {
+  color: white;
+  height: 100%;
+  width: 40%;
+  background-color: blue;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  font-family: "Indie Flower", cursive;
+}
+
+.ButtonDiv {
+  margin: 2px 0px 2px 0px;
+  height: 8%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.ButtonDiv button {
+  color: white;
+  height: 100%;
+  width: 40%;
+  border-radius: 5px;
+  font-family: "Indie Flower", cursive;
+}
+
+.ButtonDiv button:disabled,
+.ButtonDiv button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.TextBoxDiv {
+  height: 80%;
+  width: 80%;
+  border-color: black;
+  display: block;
+  margin: auto;
+}
+
+.TextArea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+  border: 3px solid grey;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+@media (min-width: 760px) {
+  .Writer {
+    height: 500px;
+    width: 400px;
+  }
+}
