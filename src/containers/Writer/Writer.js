@@ -24,7 +24,7 @@ class Writer extends Component {
     }
   }
   startRecording = () => {
-    annyang.start({ autoRestart: false });
+    annyang.start();
     this.setState({ isRecording: true });
   };
 
