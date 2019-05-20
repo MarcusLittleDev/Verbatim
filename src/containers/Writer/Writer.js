@@ -38,7 +38,7 @@ class Writer extends Component {
   };
 
   handleVoiceInput = text => {
-    const newText = this.state.text.slice(0) + text;
+    const newText = this.state.text.slice(0) + " " + text;
     this.setState({ text: newText });
     this.textArea.current.scrollTop = this.textArea.current.scrollHeight;
   };
