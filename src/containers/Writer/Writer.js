@@ -60,8 +60,9 @@ class Writer extends Component {
   };
 
   render() {
-    console.log(this.state.text);
-    return (
+    if(annyang)
+    {
+      return (
       <>
         <div className={classes.Writer}>
           <div className={classes.ButtonDiv}>
@@ -100,6 +101,8 @@ class Writer extends Component {
         />
       </>
     );
+}
+else {return <div className={classes.unsupported}><p>Sorry but this browser dos not support the speech recognition web api.</p> <p>Please try Google Chrome</p></div>
   }
 }
 
