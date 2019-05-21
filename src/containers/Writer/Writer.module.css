@@ -81,6 +81,11 @@
   font-family: "Indie Flower", cursive;
 }
 
+.unsupported {
+  text-align: center;
+  color: white;
+}
+
 @media (min-width: 760px) {
   .Writer {
     height: 500px;
